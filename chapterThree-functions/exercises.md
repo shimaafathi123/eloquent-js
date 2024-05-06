@@ -15,7 +15,7 @@ For any other number N, its evenness is the same as N - 2.
 Define a recursive function isEven corresponding to this description. The function should accept a single parameter (a positive, whole number) and return a Boolean.
 
 Test it on 50 and 75. See how it behaves on -1. Why? Can you think of a way to fix this?
----------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------
 
 ## 3. Bean counting
 You can get the Nth character, or letter, from a string by writing [N] after the string (for example, string[2]). The resulting value will be a string containing only one character (for example, "b"). The first character has position 0, which causes the last one to be found at position string.length - 1. In other words, a two-character string has length 2, and its characters have positions 0 and 1.
