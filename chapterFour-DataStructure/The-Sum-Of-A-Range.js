@@ -10,3 +10,12 @@ function Range(start, end) {
 }
 console.log(Range(1,6))
 
+//Sum function
+function Sum(arr){
+  let sumArr = 0
+  for(i=0; i<arr.length;i++){
+    sumArr += arr[i]
+  }
+  return sumArr
+}
+console.log(Sum(Range(1,10)))
