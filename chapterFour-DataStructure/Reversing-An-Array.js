@@ -22,3 +22,16 @@ function reverseArrayInPlace(arr) {
 let newArr = [1, 2, 3, 4, 5];
 reverseArrayInPlace(newArr);
 console.log(newArr);
+
+/* Question:
+Thinking back to the notes about side effects and pure functions in the previous chapter,
+    which variant do you expect to be useful in more situations? Which one runs faster?
+ */
+
+/*
+    Answer:
+    reverseArray: This function produces a new array with elements in the reverse order, leaving the original array unchanged. It's a pure function because it doesn't modify the original array and has no side effects.
+reverseArrayInPlace: This function modifies the original array by reversing its elements in place. It has a side effect because it changes the state of the original array.
+
+Generally, reverseArrayInPlace would be faster than reverseArray because it operates directly on the original array without creating a new one.
+*/
