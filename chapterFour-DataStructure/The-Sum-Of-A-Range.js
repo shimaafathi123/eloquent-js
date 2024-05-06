@@ -19,3 +19,15 @@ function Sum(arr){
   return sumArr
 }
 console.log(Sum(Range(1,10)))
+
+//Bonus use step
+function RangeByStep(start,step, end) {
+  let arr = [];
+  let arrLength = (end - start)/step
+  arr[0]= start
+  for(i=1; i<=arrLength; i++){
+    arr[i]=arr[i-1]+step
+  }
+  return arr
+}
+console.log(RangeByStep(1,3,11))
